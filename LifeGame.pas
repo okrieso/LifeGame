@@ -2,9 +2,9 @@
 
 procedure PrintField();
 begin
-  for var i := 0 to A.RowCount-1 do
+  for var i := 1 to A.RowCount-2 do
   begin
-    for var j := 0 to A.ColCount-1 do
+    for var j := 1 to A.ColCount-2 do
       if a[i,j] then Print('█֯֯')
       else Print('░');
     writeln();
