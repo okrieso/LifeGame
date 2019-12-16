@@ -1,4 +1,3 @@
-﻿
 var A : array [,] of boolean;
 
 procedure OneIteration();
@@ -12,7 +11,6 @@ procedure OneIteration();
           if (HowMuch(i,j) = 3) then
             A[i,j]:=true;   
   end;
-  
 
 begin
 
